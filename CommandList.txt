@@ -1,0 +1,27 @@
+DOS – DISK OPERATION SYSTEM
+*Cls – clear cmd screen
+*Dir – watching all files and directories in adress
+*cd.. – back one step back in address
+*cd <directory name> - change directory
+*md <directory name> - makes directory
+*cd\ - back to root (can add name after \)
+*tree – makes tree of al the files and directories inside directory
+*<command> \? – gives all information and options with command (works also with help <command>
+*rmdir /s(/q) <directory name> – removes a directory (check options with - help rmdir)
+*dir > b.txt(file name) – creates a file and puts content from cdm inside
+*copy b.txt(file name) c:\user(address)\add new name (optional) – copy a file to a new address
+*del b.txt(file name) – delete a file
+*move b.txt(file name) c:\user(address) – move a file to a new address
+*type b.txt(file name) – opens file content in cmd
+*attrib – shows attributes (check with attrib \?)
+*attrib +/- b.txt(file name) – add or remove attributes (r = read only – h = hidden)
+*dir /A - dir also have an attributes – check them with dir /?
+*dir b.txt – bring a specific file
+*dir *.txt – brings all files ends with .txt
+*dir 9*.txt – brings all file starts with 9 and ends with .txt (work with more than 1 char – 90/91/98)
+*dir 9*1.txt – brings all files starts with 9 and ends with 1.txt
+*dir 87*.* - brings files from all types (txt/docs/and more)
+*dir 8?4*.* - ? means any char is ok here (can be used multiple times in a row)
+
+
+
