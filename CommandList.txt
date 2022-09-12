@@ -21,7 +21,13 @@ DOS – DISK OPERATION SYSTEM
 *dir 9*.txt – brings all file starts with 9 and ends with .txt (work with more than 1 char – 90/91/98)
 *dir 9*1.txt – brings all files starts with 9 and ends with 1.txt
 *dir 87*.* - brings files from all types (txt/docs/and more)
-*dir 8?4*.* - ? means any char is ok here (can be used multiple times in a row)
+*dir 8?4*.* - ? means any char is ok here (can be used multiple times in a row)*
+*echo - print command
+*pause - pause command ("press any key to comtinue")
+*notepad - opens notepad
+*tasks list - gives all procceses running in system
+*taskslist | find "msedge.exe" - gives all relevant lines by your selection inside tasklist (works also with dir instead of tasklist)
+
 
 
 
